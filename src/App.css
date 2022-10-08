@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+  max-width: 550px;
 }
 
 .header-container {
@@ -10,4 +11,23 @@ body {
   display: flex;
   justify-content: center;
   color: #FFFFFF;
+}
+
+.card-container {
+  display: flex;
+  max-height: 168px;
+}
+
+.card-info {
+  margin-left: 20px;
+}
+
+.card-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-container > img {
+  width: 125px;
 }
