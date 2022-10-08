@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Inter', sans-serif;
   max-width: 550px;
 }
@@ -16,10 +16,27 @@ body {
 .card-container {
   display: flex;
   max-height: 168px;
+  margin-top: 40px;
+  margin-left: 30px;
+  max-width: 500px;
 }
 
 .card-info {
   margin-left: 20px;
+}
+
+.card-info h1 {
+  margin-block-start: -10px;
+  font-size: 25px;
+}
+
+.card-info p {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.card-info h6 {
+  margin-block-end: 0px;
 }
 
 .card-location {
@@ -28,6 +45,13 @@ body {
   gap: 10px;
 }
 
+.card-location p {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+
 .card-container > img {
   width: 125px;
+  height: 200px;
+  border-radius: 5px;
 }
