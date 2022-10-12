@@ -26,11 +26,12 @@ body {
 }
 
 .card-info h1 {
-  margin-block-start: -10px;
+  margin-block-start: 0px;
   font-size: 25px;
 }
 
-.card-info p {
+.card-info {
+  margin-top: -10px;
   font-size: 12px;
   line-height: 150%;
 }
@@ -50,8 +51,12 @@ body {
   letter-spacing: .1rem;
 }
 
-.card-container > img {
+.card-location a {
+  color: #918E9B;
+}
+
+.location-image {
   width: 125px;
-  height: 200px;
   border-radius: 5px;
+  height: 180px;
 }

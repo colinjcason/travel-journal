@@ -6,15 +6,17 @@ function App() {
   return (
     <div>
       <Header />
-      <Card 
-        title={data[0].title}
-        location={data[0].location}
-        googleMapsUrl={data[0].googleMapsUrl}
-        startDate={data[0].startDate}
-        endDate={data[0].endDate}
-        description={data[0].description}
-        imageUrl={data[0].imageUrl}
-      />
+      {data.map(card => (
+        <Card 
+          title={card.title}
+          location={card.location}
+          googleMapsUrl={card.googleMapsUrl}
+          startDate={card.startDate}
+          endDate={card.endDate}
+          description={card.description}
+          imageUrl={card.imageUrl}
+        />
+      ))}
     </div>
   );
 

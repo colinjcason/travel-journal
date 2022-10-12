@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({ title, location, googleMapsUrl, startDate, endDate, description, imageUrl }) => {
   return (
     <div className='card-container'>
-      <img src={imageUrl} alt='location' />
+      <img src={imageUrl} alt='location' className='location-image' />
       <div className='card-info'>
         <div className='card-location'>
           <img src='../images/location-pin.png' alt='pin' />
